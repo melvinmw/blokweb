@@ -37,16 +37,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
+Wat ging goed & Slecht?
 
--dit ging goed & dit was lastig-
+Slecht: Ik had eerst moeite met het verplaatsen van elementen in css. Daardoor liep ik een beetje achter met het maken van m'n website maar uiteindelijk is het mij wel gelukt omdat ik de opdrachten van absolute/relative position opnieuw heb gemaakt.
+
+Na het voorgangsgesprek ga ik de feedback verwerken en nog de laatste dingen toevoegen aan de eerste pagina: nav & footer. 
+Daarna wil ik gaan focussen op het responsive maken van de site en een interactie toevoegen met behulp van javascript.
 
 **Screenshot(s):**
+![screenshot website voortgang 1](images/audible1.png)
+![screenshot website voortgang 1](images/audible2.png)
+![screenshot website voortgang 1](images/audible2.png)
 
 -screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+- dingen naast elkaar zetten. 
+- Hoe kun je makkelijker zien nth gebeuren
+- Mag je classes  gebruiken
+- Moet je hamburger laten werken? 
+- Hoe zet je het om in een hamburgermenu
+- flexbox vragen, naast elkaar zetten bijvoorbeeld.
 
 ### Verslag van meeting
 
