@@ -21,13 +21,31 @@ h2 {
 }
 
 h3 {
-	font-size:1.1em;
+	font-size:1em;
 	font-weight: bold;
 }
 
-.price {
-	font-size:1em;
-	color:black;
+p {
+	font-size:0.9em;
+}
+
+header {
+	background-color:black;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+img.hamburger {
+	width: 1.7em;
+}
+
+img.logo {
+	width:4em;
+}
+
+header p{
+color: black;
 }
 
 /*section---------------------------------------*/
@@ -53,7 +71,7 @@ section:nth-of-type(1) p {
 }
 
 section:nth-of-type(1) img {
-	width: 100%;
+	width: 100vw;
 }
 
 section:nth-of-type(1) button{
@@ -77,24 +95,14 @@ color:black;
 section:nth-of-type(2) h3  {
 color:black;
 text-align: center;
+
 }
 
 section:nth-of-type(2) div  {
-
 text-align: center;
 width: 80%;
 margin: auto;
 }
-
-section:nth-of-type(2) button {
-width: 25em;
-background-color:orange;
-padding:0.7em 0;
-border-radius: 5px;
-margin: auto;
-display: block;
-}
-
 
 section:nth-of-type(3)  {
 background-color:#282828;
@@ -110,58 +118,87 @@ margin-bottom: 2em;
 text-align: center;
 }
 
-section:nth-of-type(3) h3  {
-margin: 0;
-}
-
 section:nth-of-type(3) div  {
-margin-left: 2em;
+text-align: center;
 }
 
 section:nth-of-type(3) p  {
-margin-bottom: 3em;
-text-align: left;
-font-size: 0.8em;
+margin-bottom: 3em;font-size: 0.8em;
 }
 
-section:nth-of-type(3) button {
-width: 25em;
-background-color:orange;
-padding:0.7em 0;
-border-radius: 5px;
-margin: auto;
-display: block;
-}
-
-
-section:nth-of-type(4) {
-background-color:black;
-text-align: center;
-padding: 2em 0;
-}
-
-section:nth-of-type(4) h2 {
-color:white;
-text-align: center;
-}
-
-section:nth-of-type(4) h3 {
-font-weight: lighter;
+section:nth-of-type(4) img {
+	width: 100vw;
 }
 
 section:nth-of-type(5)  {
 text-align: center;
-
+margin-top:2em;
 }
 
 section:nth-of-type(5) h3 {
 color: black;
 }
 
-section:nth-of-type(5) h3 {
-color: black;
+section:nth-of-type(5) img {
+max-width: 40vw;
+display: block;
+margin:auto;
+
 }
 
+section:nth-of-type(5) button {
+margin:1em 3em 1em 3em;
+background-color:orange;
+}
+
+
+
+/*  ------ media --- */
+
+@media (min-width: 45em) {
+	header {
+}
+
+section:nth-of-type(2)  {
+display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+
+section:nth-of-type(2) img {
+	margin:auto;
+}
+
+section:nth-of-type(5) img {
+max-width: 35vw;
+}
+
+
+/*  ------ media --- */
+
+@media (min-width: 55em) {
+header {
+
+}
+
+section:nth-of-type(1) img{
+
+}
+
+
+section:nth-of-type(2){
+	max-width: 60em;
+	margin:auto;
+	margin-bottom: 2em;
+	margin-top:2em;
+}
+
+
+section:nth-of-type(4) img{
+	max-height: 50vh;
+}
+
+
+}
 
 
 
