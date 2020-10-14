@@ -29,56 +29,80 @@ p {
 	font-size:0.9em;
 }
 
-.hamburger {
-	position: absolute;
-	width: 2.5em;
-	height:2.5em;
-	background-color:red;
-	border:none;
-	background: url(../images/hamburger.png);
-	background-size:100%;
-}
-
-.kruisje {
-position: absolute;
-	width: 2.5em;
-	height:2.5em;
-	background-color:red;
-	border:none;
-	background: url(../images/kruis.png);
-	background-size:100%;
-}
-
-.toonnav {
-	transform: translateX(0);
-	transition:transform 0.2s ease;
-}
-
-.navigation {
-height: 100vh;
-position: absolute;
-background-color: #282828;
-width: 100vw;
-overflow: hidden;
-transform: translateX(-100%);
-transition: transform 0.2s ease;
-top: 0;
-left: 0;
-}
-
 header {
-	background-color:black;
+	background-color:#282828;
 display: grid;
 align-items: center;
 justify-content: space-around;
+padding: .5em 0;
+
 }
 
-img.hamburger {
+.hamburger {
 	width: 1.7em;
+	position: absolute;
+	width: 2.5em;
+	height:2.5em;
+	border:none;
+	background: url(../images/hamburger.png);
+	background-size:100%;
+	z-index: 1000;
+	top: .75em;
+	left: 1em;
+}
+
+.sluiten {
+	background: url(../images/kruis.png);
+	width: 1.7em;
+	position: absolute;
+	width: 2.5em;
+	height:2.5em;
+	border:none;
+	background-size:100%;
+	z-index: 1000;
+	top: 1em;
+}
+
+.navigatie {
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 background-color: #282828;
+	 width: 100vw;
+	 height: 100vh;
+	 overflow: hidden;
+	 transform:translateX(-100%);
+	 transition: transform 0.2s ease;
+}
+
+.toonNav {
+	transform:translateX(0%);
+}
+
+.navigatie ul {
+  list-style: none; 
+  margin-top:5em;
+}
+
+.navigatie li {
+	margin-bottom: 3em;
+}
+
+.navigatie ul li a{
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.navigatie ul li a:hover, .navigatie ul li a:focus {
+  border-bottom: 2px solid white;
 }
 
 img.logo {
-	width:4em;
+	width:6em;
 }
 
 header p{
@@ -90,15 +114,14 @@ header a{
 }
 
 header ul {
-		list-style-type: none;
-
+	list-style-type: none;
 }
 
 
 /*section---------------------------------------*/
 section:nth-of-type(1) {
 	margin: auto;
-	background-color:black;
+	background-color:#282828;
 	padding-bottom: 1em;
 }
 

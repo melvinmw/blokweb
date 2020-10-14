@@ -9,10 +9,9 @@ var laatsteNrSpan = document.querySelector('#laatsteFotoNr');
 var vooruitButton = document.querySelector('#right');
 var achteruitButton = document.querySelector('#left');
 
-var navigatie = document.querySelector(".navigation");
-var hamburgerMenu = document.querySelector(".hamburger");
+var navBar = document.querySelector(".navigatie");
+var hamKnop = document.querySelector(".hamburger");
 
-var menuLinks = document.querySelectorAll(".lijst")
 
 var huidigFotoNr = 0 ; // initieel op 0
 toonHuidigeFoto();	
@@ -25,9 +24,10 @@ function toonHuidigeFoto() {
 	laatsteNrSpan.textContent = fotos.length - 1;
 }
 
-function klikhamburger() {
-navigatie.classList.toggle("navigation")
-hamburgerMenu.classList.toggle("hamburger")
+
+function toggleHam(){
+	navBar.classList.toggle("toonNav")
+	hamKnop.classList.toggle("sluiten")
 }
 
 
@@ -52,4 +52,4 @@ function bladerAchteruit() {
 // d. eventlisteners: voor de heen en weer knoppen die de bladerfuncties aanroepen
 vooruitButton.addEventListener('click' , bladerVooruit );
 achteruitButton.addEventListener('click' , bladerAchteruit );
-hamburgerMenu.addEventListener("click", klikhamburger);
+hamKnop.addEventListener('click', toggleHam );
