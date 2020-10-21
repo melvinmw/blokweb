@@ -6,33 +6,49 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://dev.to/ljcdev/easy-hamburger-menu-with-js-2do0
+2. Inleiding programmeren (vorig schooljaar)
+3. Audible website (afbeeldingen & content)
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+In de herfstvakantie heb ik de media query code verwijderd en de opdrachten opnieuw gemaakt. Daardoor begreep ik het beter en besloot ik weer te beginnen met het responsive. 
+
+Lastig: Responsive maken. Dit nam veel tijd in beslag omdat ik een paar (typ)fouten maakte. Ik was vergeten om max-width te gebruiken. Daardoor was alle content verspreid over de scherm.
+
+Daarnaast had ik ook moeite met Javascript. Ik was vergeten wat ik allemaal moest doen maar doordat ik naar m'n werk van Inleiding Programmeren keek en de opdrachten van vorig jaar, lukte het mij wel om de interacties te laten werken.
+
+Ik heb wel een probleem met het linken van de tweede pagina naar 1 Css & Javascript. 1) De hamburger menu werkte niet meer toen ik de tweede pagina linkte met javascript. 2) Ik heb de tweede html pagina gelinkt naar de css, maar sommige dingen bleven hetzelfde toen ik de code had aangepast: de width van de afbeeldingen veranderden niet op de tweede pagina maar de kleur van h2 wel. 
 
 **Screenshot(s):**
+Mobiele versie pagina 2. Ik heb een 2 grid column gebruikt en als de width verandert, gaat het naar 3 grid en 4 grid.
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/eind1.png)
 
--screenshot(s) van je eindresultaat-
-
+Mobiele versie pagina 1.
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/eind2.png)
 
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Agenda voor meeting
+
+- Algemene feedback voor eigen code
+
+### Stand van zaken
+Lastig: het maken van een hamburger menu. Het lukte niet om Javascript toe te passen. 
 
 
 
 ## Voortgang 2 (week 5)
+### Stand van zaken
+Wat ging goed & Slecht?
+Deze week heb ik weinig content toegevoegd dus m'n website is hetzelfde gebleven (visueel). Na het eerste feedbackgesprek heb ik meer tijd gefocust om de code te begrijpen en toe te passen. Ik heb de opdrachten over flexbox opnieuw gemaakt en ben ik gaan verdiepen op grid en media queries. Ook heb ik de Html en CSS code verbeterd en overzichtelijker gemaakt. Ik merkte dat ik veel fouten maakte omdat ik niet wist waar sommige codes waren. 
 
--same as voortgang 1-
-
-
+### Agenda voor meeting
+- Hamburger menu
+- Knoppen die de afbeeldingen veranderen (m.b.v. Javascript)
 
 ## Voortgang 1 (week 3)
 
@@ -59,12 +75,6 @@ Daarna wil ik gaan focussen op het responsive maken van de site en een interacti
 - Moet je hamburger laten werken? 
 - Hoe zet je het om in een hamburgermenu
 - flexbox vragen, naast elkaar zetten bijvoorbeeld.
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
-
 
 ## Intake (week 1)
 
