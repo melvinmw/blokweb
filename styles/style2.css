@@ -122,6 +122,11 @@ section:nth-of-type(1) img {
 	grid-column-end:-1;
 }
 
+section:nth-of-type(1) h2 {
+	font-size:.01px;
+	color: white;
+}
+
 /* section 2 */
 section:nth-of-type(2) {
 	background-color: #153754;
@@ -233,10 +238,6 @@ footer ul:nth-of-type(2) li {
 	display: inline;
 }
 
-footer ul:nth-of-type(2) p {
-	display: inline;
-	color: grey;
-}
 
 /* Media Query */
 /* 3 Column Grid */
