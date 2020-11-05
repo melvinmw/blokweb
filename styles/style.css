@@ -152,7 +152,6 @@ p:nth-child(5) {
 
 /* Section 2 */
 section:nth-of-type(2) h2 {
-	color:red;
 	grid-column-start:1;
     grid-column-end:-1;
     font-size:.01px;
@@ -193,6 +192,13 @@ section:nth-of-type(3) article {
 section:nth-of-type(4) img {
 	width: 100vw;
 	margin-bottom: 2vh;
+}
+
+section:nth-of-type(4) h2 {/*h2 vebergen*/
+	grid-column-start:1;
+    grid-column-end:-1;
+    font-size:.01px;
+    color: white;
 }
 
 /* Section 5 */
@@ -257,10 +263,6 @@ footer ul:nth-of-type(2) li {
 	display: inline;
 }
 
-footer ul:nth-of-type(2) p {
-	display: inline;
-	color: grey;
-}
 
 /*  ------ media --- */
 
