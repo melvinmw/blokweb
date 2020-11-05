@@ -166,7 +166,7 @@ section:nth-of-type(3) img {
 	width: 40vw;
 }
 
-section:nth-of-type(3) div {
+section:nth-of-type(3) article {
 	margin:auto;
 	margin-bottom: 2em;
 }
@@ -189,7 +189,7 @@ section:nth-of-type(4) h2 {
 	text-align: center;
 }
 
-section:nth-of-type(4) div {
+section:nth-of-type(4) article {
 	margin: auto;
 	margin-bottom: 3vh;
 }
@@ -204,29 +204,36 @@ section:nth-of-type(4) p {
 	width: 35vw;
 }
 
-/* footer */
 footer {
 	background-color: #eae9e9;
 	padding:2em 0;
 	font-size: 0.8em;
 }
 
-footer div:nth-of-type(1) {
+footer ul:nth-of-type(1) {
 	display: grid;
+	list-style-type: none;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 1em 3em;
-	width: 80vw;
+	width: 95vw;
 	margin:auto;
 	margin-bottom: 2em;
+	margin-left: 0;
 }
 
-footer div:nth-of-type(2) {
-	width: 80vw;
+footer ul:nth-of-type(2) {
+	width: 95vw;
 	margin-top: 2em;
 	margin:auto;
+	margin-left: 0;
+
 }
 
-footer div:nth-of-type(2) p {
+footer ul:nth-of-type(2) li {
+	display: inline;
+}
+
+footer ul:nth-of-type(2) p {
 	display: inline;
 	color: grey;
 }
@@ -251,7 +258,7 @@ footer div:nth-of-type(2) p {
 		max-width: 12em;
 	}
 
-	section:nth-of-type(3) div {
+	section:nth-of-type(3) article {
 		margin:auto;
 		margin-bottom: 2em;
 	}
@@ -269,7 +276,7 @@ footer div:nth-of-type(2) p {
 		text-align: center;
 	}
 
-	section:nth-of-type(4) div {
+	section:nth-of-type(4) article {
 		margin: auto;
 		margin-bottom: 3vh;
 	}
@@ -284,12 +291,22 @@ footer div:nth-of-type(2) p {
 		max-width: 17em;
 	}
 
-	footer div {
+	footer ul {
 		max-width: 60em;
 		margin: auto;
 	}
 
-	footer div:nth-of-type(1) {
+	footer ul:nth-of-type(1){
+		margin: auto;
+		margin-bottom: 2em;
+	}
+
+	footer ul:nth-of-type(2){
+		margin: auto;
+	}
+
+
+	footer ul:nth-of-type(1)li {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 1em 3em;
@@ -315,7 +332,7 @@ footer div:nth-of-type(2) p {
 		max-width: 13.5em;
 	}
 
-	section:nth-of-type(3) div {
+	section:nth-of-type(3) article {
 		margin:auto;
 		margin-bottom: 2em;
 	}
@@ -333,7 +350,7 @@ footer div:nth-of-type(2) p {
 		text-align: center;
 	}
 
-	section:nth-of-type(4) div {
+	section:nth-of-type(4) article {
 		margin: auto;
 		margin-bottom: 3vh;
 	}
@@ -348,16 +365,20 @@ footer div:nth-of-type(2) p {
 		max-width: 17em;
 	}
 
-	footer div {
+	footer ul {
 		max-width: 80em;
 		margin: auto;
 	}
 
-	footer div:nth-of-type(1) {
+	footer ul:nth-of-type(1) {
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-		grid-gap: 1em 3em;
-		margin-bottom: 2em;
+		margin:auto;
+	}
+
+	footer ul:nth-of-type(2){
+		margin: auto;
+		margin-top: 2em;
 	}
 }
 
